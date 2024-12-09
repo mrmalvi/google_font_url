@@ -11,7 +11,7 @@ TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_O
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle gem 'google_font_url'
+gem 'google_font_url'
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
