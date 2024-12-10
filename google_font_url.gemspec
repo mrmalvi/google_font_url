@@ -5,7 +5,7 @@ require_relative "lib/google_font_url/version"
 Gem::Specification.new do |spec|
   spec.name          = "google_font_url"
   spec.version       = GoogleFontUrl::VERSION
-  spec.license = nil
+  spec.license = "MIT"
   spec.authors       = ["mrmalvi"]
   spec.email         = ["malviyak00@gmail.com"]
   spec.summary       = "A gem to generate Google Fonts URLs dynamically." # Short summary
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   # Specify which files should be added to the gem
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |file|
-      file.start_with?("test/", "spec/", ".git", "Gemfile")
+      file.start_with?("test/", "spec/", ".git", "Gemfile") || file.end_with?(".gem")
     end
   end
 
