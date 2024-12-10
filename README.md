@@ -6,7 +6,7 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 ## Installation
 
-`use in class: require 'google_font_url/generator'` .
+`Use in class: require 'google_font_url/generator'` .
 
 Install the gem and add to the application's Gemfile by executing:
 
@@ -18,9 +18,21 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ```bash
 GoogleFontUrl::Generator.generate
+[["ABeeZee", "https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap"],
+ ["ADLaM Display", "https://fonts.googleapis.com/css2?family=ADLaM+Display:wght@400&display=swap"],.....
 ```
 ```bash
 GoogleFontUrl::Generator.all
+[{"family"=>"ABeeZee",
+  "variants"=>["regular", "italic"],
+  "subsets"=>["latin", "latin-ext"],
+  "version"=>"v22",
+  "lastModified"=>"2024-09-04",
+  "files"=>{"regular"=>"https://fonts.gstatic.com/s/abeezee/v22/esDR31xSG-6AGleN6tKukbcHCpE.ttf", "italic"=>"https://fonts.gstatic.com/s/abeezee/v22/esDT31xSG-6AGleN2tCklZUCGpG-GQ.ttf"},
+  "category"=>"sans-serif",
+  "kind"=>"webfonts#webfont",
+  "menu"=>"https://fonts.gstatic.com/s/abeezee/v22/esDR31xSG-6AGleN2tOklQ.ttf",
+  "css_style_link"=>"https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap"},.....
 ```
 
 ## Usage
