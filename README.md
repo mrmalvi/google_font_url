@@ -1,8 +1,8 @@
-# GoogleFontUrl
+# Google Font Url Extractor
 
-TODO: Delete this and the text below, and describe your gem
+To make all available Google Fonts selectable in a Rails application and save their corresponding CSS links, follow these steps:
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/google_font_url`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `require 'google_font_url/generator'`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
 
