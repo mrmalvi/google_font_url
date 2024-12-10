@@ -1,4 +1,4 @@
-require "google_font_url"
+require "google_font_url/generator"
 require "byebug"
 require "google_font_url/utils"
 
