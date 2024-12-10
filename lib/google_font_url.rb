@@ -1,4 +1,3 @@
-require "google_font_url/generator"
-
 module GoogleFontUrl
+  class Error < StandardError; end
 end

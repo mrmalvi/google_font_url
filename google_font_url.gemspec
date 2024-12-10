@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "lib/google_font_url/version"
+require_relative "lib/google_font_url/generator"
 
 Gem::Specification.new do |spec|
   spec.name          = "google_font_url"
@@ -35,7 +36,7 @@ Gem::Specification.new do |spec|
   # Executables and paths
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ["lib/google_font_url"]
 
   # Uncomment and adjust if you want to add additional runtime dependencies
   # spec.add_dependency "example-gem", "~> 1.0"
