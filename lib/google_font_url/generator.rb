@@ -1,4 +1,4 @@
-require "google_font_url/utils"
+require_relative 'utils'
 
 module GoogleFontUrl
   class Generator
