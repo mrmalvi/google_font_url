@@ -6,7 +6,7 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 ## Installation
 
-`'google_font_url/generator'` .
+`use in class: require 'google_font_url/generator'` .
 
 Install the gem and add to the application's Gemfile by executing:
 
