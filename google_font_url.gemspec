@@ -36,7 +36,7 @@ Gem::Specification.new do |spec|
   # Executables and paths
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib/google_font_url"]
+  spec.require_paths = ["lib"]
 
   # Uncomment and adjust if you want to add additional runtime dependencies
   # spec.add_dependency "example-gem", "~> 1.0"
