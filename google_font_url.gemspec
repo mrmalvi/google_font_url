@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.authors       = ["mrmalvi"]
   spec.email         = ["malviyak00@gmail.com"]
-  spec.summary       = "A gem to generate Google Fonts URLs dynamically." # Short summary
+  spec.summary       = "A gem to generate Google Fonts CSS stylelink URLs dynamically and font-face urls." # Short summary
   spec.description = "This gem provides a simple way to generate Google Fonts URLs with custom font names, weights, and variants. It supports embedding fonts into your web projects effortlessly by generating URLs or complete CSS links, ensuring compatibility with all font styles and weights available in the Google Fonts library."
   spec.homepage      = "https://github.com/mrmalvi/google_font_url"
   spec.required_ruby_version = ">= 3.0.0"
