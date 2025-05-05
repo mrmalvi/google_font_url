@@ -17,7 +17,7 @@ RSpec.describe GoogleFontUrl::Generator do
 
       expect(font["family"]).to eq("ABeeZee")
       expect(font["variants"]).to eq(["regular", "italic"])
-      expect(font["css_style_link"]).to eq("https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap")
+      expect(font["css_url"]).to eq("https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap")
     end
   end
 end
